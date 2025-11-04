@@ -95,7 +95,7 @@ export async function removeColorFromStock(
             new: true,
             projection: {
                 name: 1,
-                phones: { $elemMatch: { _id: new Types.ObjectId(phoneId) } }, // return only the matched phone
+                phones: { $elemMatch: { _id: new Types.ObjectId(phoneId) } },
             },
         }
     ).lean();

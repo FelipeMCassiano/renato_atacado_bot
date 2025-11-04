@@ -111,7 +111,6 @@ bot.action(/^clr:([^:]+):([a-f\d]{24})$/i, async (ctx) => {
 
     const phone = brand.phones[0]!;
     const removed = phone.colors.find((c) => c._id.toString() === colorId);
-    console.log(brand.name);
 
     await ctx.answerCbQuery(`Removido: ${removed?.color}`);
 
