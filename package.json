@@ -1,0 +1,18 @@
+{
+  "name": "renato_atacado_bot",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "mongoose": "^8.19.2",
+    "qinn": "^1.0.4",
+    "telegraf": "^4.16.3"
+  }
+}
